@@ -1,0 +1,1 @@
+- v0 do código em que o usuário consegue questionar a IA sobre as Notas Fiscais em csv
