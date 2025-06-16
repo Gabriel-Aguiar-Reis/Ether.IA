@@ -65,7 +65,7 @@ def criar_agente_especializado(modo = 'csv_agent'):
     prompt_usuario = input()
     while prompt_usuario != 'sair':
         response = agent_executor.invoke({'input': prompt_usuario})
-        print(response['text'])
+        print(response['input'], response['output'])
         prompt_usuario = input()
 
     return
